@@ -1,0 +1,7 @@
+CREATE DATABASE TecWebProjeto1;
+USE TecWebProjeto1;
+CREATE TABLE Tasks(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, title VARCHAR(32) NOT NULL, creator VARCHAR(32) NOT NULL, tag VARCHAR(32) NOT NULL);
+INSERT INTO Tasks(title, creator, tag) VALUES ('Procurar escola de Surf', 'Fernando', 'Lazer');
+INSERT INTO Tasks(title, creator, tag) VALUES ('Estudar Medicina', 'Adriana', 'Faculdade');
+INSERT INTO Tasks(title, creator, tag) VALUES ('Montar entidade de GameDev', 'Fernando', 'Insper');
+INSERT INTO Tasks(title, creator, tag) VALUES ('Passear com os cachorros', 'Fernando', 'Doggos');
